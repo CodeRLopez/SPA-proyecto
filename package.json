@@ -2,10 +2,10 @@
   "name": "cientifico",
   "version": "1.0.0",
   "description": "Single Page Application",
-  "main": "index.js",
+  "main": "webpack.config.js",
   "scripts": {
     "build": "webpack --mode production",
-    "start": "webpack-dev-server --open --mode --development"
+    "start": "webpack-dev-server --open --mode development"
   },
   "repository": {
     "type": "git",
@@ -22,6 +22,7 @@
   "homepage": "https://github.com/CodeRLopez/SPA-proyecto#readme",
   "devDependencies": {
     "@babel/core": "^7.18.5",
+    "@babel/preset-env": "^7.18.2",
     "babel-loader": "^8.2.5",
     "html-webpack-plugin": "^5.5.0",
     "webpack": "^5.73.0",
