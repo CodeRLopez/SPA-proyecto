@@ -1,0 +1,14 @@
+import Header from '../template/Hearder';
+import Home from '../pages/Home';
+import Character from '../pages/Character';
+import Error404 from '../pages/Error404';
+
+const routes = {
+    '/': Home,
+    '/: id': Character,
+    '/contact': 'Contact',
+}
+
+const router = async () => {
+    
+}
